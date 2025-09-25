@@ -38,14 +38,7 @@ const Create = () => {
                     </div>
                     <div className="mb-3">
                         <label htmlFor='email' className='form-label'>Email:</label>
-                        <input 
-                            type='email' 
-                            name='email' 
-                            className='form-control' 
-                            placeholder='Enter email' 
-                            onChange={e => setEmail(e.target.value)} 
-                            required 
-                        />
+                       
                     </div>
                     <button className='btn btn-primary w-100'>Submit</button>
                 </form>

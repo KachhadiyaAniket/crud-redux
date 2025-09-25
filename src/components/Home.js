@@ -9,7 +9,7 @@ const Home = () => {
             
             <div className="button-container d-flex justify-content-center mb-4">
                 <Link to="/create" className='btn btn-primary mx-2'>Create +</Link>
-                <Link to="/list" className='btn btn-primary mx-2'>List +</Link>
+                <Link to="/itsr" className='btn btn-primary mx-2'>List +</Link>
             </div>
 
         </div>

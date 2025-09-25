@@ -12,7 +12,7 @@ const List = () => {
         <div className='container' style={{ marginTop: '2rem' }}>
             <div className="button-container d-flex justify-content-center mb-4">
                 <Link to="/create" className='btn btn-primary mx-2'>Create +</Link>
-                <Link to="/list" className='btn btn-primary mx-2'>List +</Link>
+     
             </div>
             <table className='table table-striped'>
                 <thead>
@@ -23,12 +23,10 @@ const List = () => {
                 </thead>
                 <tbody>
                     {users.map((user) => (
-                        <tr key={user.id}>
-
+                       
                             <td>{user.name}</td>
                             <td>{user.email}</td>
 
-                        </tr>
                     ))}
                 </tbody>
             </table>
